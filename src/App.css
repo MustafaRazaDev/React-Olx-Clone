@@ -1,0 +1,226 @@
+@font-face {
+  font-family: roboto;
+  src: url(./screns/Roboto-Regular.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Inter:wght@300&family=Roboto:wght@300&display=swap');
+* {
+  font-family: 'Inter', sans-serif;
+}
+#ProductImg {
+  object-fit: cover !important;
+  height: 10rem !important;
+}
+.olxLogo {
+  height: 2vw;
+}
+.homeHeader {
+  width: 100%;
+  padding: 1% 10%;
+  background-color: rgb(250, 249, 248);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0px 0px 10px rgb(140, 135, 135);
+  position: relative;
+  z-index: 10;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  display: none !important;
+}
+.carousel-indicators {
+  display: none !important;
+}
+.assignButton {
+  width: 18%;
+  display: flex;
+  justify-content: space-between;
+}
+#navButton {
+  background-color: gold;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+.mainSection {
+  width: 100%;
+  padding: 2% 10%;
+}
+#sliderImg {
+  width: 100%;
+}
+.recText {
+  font-size: 3vh;
+  margin-top: 5%;
+}
+.add {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  margin: 1% 0%;
+}
+.adFormHeader {
+  width: 100%;
+  padding: 1% 2%;
+  margin-bottom: 3%;
+  background-color: rgb(250, 249, 248);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  box-shadow: 0px 0px 10px rgb(140, 135, 135);
+  position: relative;
+  z-index: 10;
+}
+.backButton {
+  width: 6%;
+  display: flex;
+  justify-content: space-between;
+}
+.adDetail {
+  width: 80%;
+  padding: 1% 2.5%;
+  margin: 0% 10%;
+  margin-bottom: 3%;
+  border: 0.1vw solid rgb(0, 0, 0);
+  border-radius: 0.2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.adDetailInput {
+  margin: 1% 0% !important;
+}
+.lineHr {
+  border-bottom: 2vh solid;
+  width: 107%;
+  border-bottom-width: 0.1vw;
+  align-self: center;
+  margin: 2% 0%;
+}
+.postAdButton {
+  background-color: gold;
+  color: black;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5vh;
+  width: 10%;
+  height: 2rem;
+  margin-bottom: 0.5%;
+}
+.AdDetailPageHeader{
+  width: 100%;
+  padding: 1% 2%;
+  background-color: rgb(250, 249, 248);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0px 0px 10px rgb(140, 135, 135);
+  position: relative;
+  z-index: 10;
+}
+.adDetailSection {
+  width: 100%;
+  height: 80rem;
+  padding: 2% 18%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.sec1 {
+  width: 75%;
+  height: 30rem;
+  border: 0.1vw solid silver;
+  margin: 1% 0%;
+}
+.sec2 {
+  width: 75%;
+  height: 50%;
+  border: 0.1vw solid silver;
+  border-radius: 0.2vh;
+  padding: 1% 1%;
+  margin: 1% 0%;
+  border-radius: 0.5vh;
+}
+.sec3,
+.sec4 {
+  border: 0.1vw solid silver;
+  border-radius: 0.2vh;
+  padding: 2% 1%;
+  padding-bottom: 0.5%;
+  margin: 1% 1%;
+  border-radius: 0.5vh;
+}
+.sec1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media screen and (max-width: 800px) {
+  .olxLogo {
+    height: 10vw;
+  }
+  .homeHeader {
+    padding: 4% 2%;
+    width: 100%;
+  }
+  .assignButton {
+    width: 70% !important;
+    justify-content: space-around;
+  }
+  #navButton {
+    background-color: gold;
+    color: black;
+    font-size: 1.5vh;
+  }
+  .mainSection {
+    padding: 5% 2%;
+  }
+  .adFormHeader {
+    margin-bottom: 10%;
+  }
+  .card {
+    width: 12rem !important;
+    margin: 2% 0%;
+  }
+  .backButton {
+    width: 20%;
+  }
+  .lineHr {
+    margin: 5% 0%;
+  }
+  .postAdButton {
+    width: 35%;
+    margin-bottom: 3%;
+  }
+  .AdDetailPageHeader {
+    margin-bottom: 10%;
+    padding-bottom: 2%;
+  }
+  .adDetailSection{
+    width: 100%;
+    padding: 2% 4%;
+    flex-wrap: nowrap;
+  }
+  .sec1{
+    width: 100%;
+    height: auto;
+  }
+  .sec1.img{
+    width: 100%;
+    height: 50%;
+  }
+  .sec2{
+    width: 100%;
+  }
+  .AdDetailPageHeader .olxLogo {
+    height: 8vw !important;
+    margin: 1% 5%;
+  }
+}
